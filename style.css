@@ -1,0 +1,191 @@
+*,
+::after,
+::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    margin-top: 15rem;
+}
+
+.container
+{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .card 
+{
+    background: whitesmoke;
+    display: relative;
+    align-items: center;
+    text-align: center;
+    width: 23.5%;
+    height: 75vh;
+    margin-top: -10rem;
+    border-radius: 1rem;
+}
+
+.image img 
+{
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.header 
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1rem 0rem 1rem 0rem;
+};
+
+p
+{
+    font-size: 16px;
+    color: white;
+}
+
+.plan 
+{
+    background: rgba(246, 247, 248, 0.97);
+    margin: .5rem 1rem .5rem 1rem;
+
+}
+
+.plan .icon 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan .icon img {
+    margin-top: .5rem;
+}
+
+.plan .button 
+{
+    margin-left: -4rem;
+}
+
+.plan a:hover 
+{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.pay {
+    display: inline-block;
+    padding: 1rem 5rem 1rem 5rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: .8rem;
+    color: white;
+    background: blue;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
+.pay:hover {
+    background: hsl(245, 75%, 52%);
+}
+
+.cancel 
+{
+    display: inline-block;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .card 
+    {
+        background: whitesmoke;
+        display: relative;
+        align-items: center;
+        text-align: center;
+        width: 36.75%;
+        height: 65vh;
+        margin-top: -10rem;
+        border-radius: 1rem;
+    }
+
+.image img 
+{
+    width: 17.5rem;
+    height: auto;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.plan 
+{
+    background: rgba(246, 247, 248, 0.97);
+    margin: .5rem 1.5rem .5rem 1.5rem;
+
+}
+
+.plan .icon 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan .icon img {
+    margin-top: .5rem;
+}
+
+.plan .button 
+{
+    margin-left: -2rem;
+}
+
+.plan a:hover 
+{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.pay {
+    display: inline-block;
+    padding: 1rem 5rem 1rem 5rem;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: .8rem;
+    color: white;
+    background: blue;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
+.pay:hover {
+    background: hsl(245, 75%, 52%);
+}
+
+.cancel 
+{
+    display: inline-block;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+}
